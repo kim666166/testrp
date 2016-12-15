@@ -1,0 +1,225 @@
+/*
+ * @copyright Copyright (c) 2016-2016. Dennis (∂єѕαѕтєя) (https://steamcommunity.com/id/d3s4st3r/)
+ */
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#background{
+    background-color: #000;
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.background_image{
+    height: 100%;
+    width: auto;
+}
+
+.background{
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.background h5{
+    margin: 0;
+}
+
+.background img{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+#background .carousel.carousel-slider{
+    height: 100%;
+    width: 100%;
+}
+
+.background_dark,
+.logo_background img{
+    background-color: rgba(0,0,0,.8);
+}
+
+.black_theme{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+
+.white_theme{
+    background-color: rgba(255,255,255,.8);
+    color: rgba(0,0,0,0.87);
+}
+
+.red_theme{
+    background-color: rgba(128,0,0,.8);
+    color: #fff;
+}
+
+.blue_theme{
+    background-color: rgba(64,118,244,.8);
+    color: #fff;
+}
+
+.lightblue_theme{
+    background-color: rgba(164,218,244,.8);
+    color: rgba(0,0,0,0.87);
+}
+
+.green_theme{
+    background-color: rgba(0,128,0,.8);
+    color: #fff;
+}
+
+.yellow_theme{
+    background-color: rgba(255,255,0,.8);
+    color: rgba(0,0,0,0.87);
+}
+
+.violet_theme{
+    background-color: rgba(255,0,255,.8);
+    color: rgba(0,0,0,0.87);
+}
+
+.gold_theme{
+    background-color: rgba(255,215,0,.8);
+    color: rgba(0,0,0,0.87);
+}
+
+.background_light,
+.logo_background_light img{
+    background-color: rgba(255,255,255,.8);
+}
+
+.absolute{
+    position: absolute;
+}
+
+.stickright{
+    right: 0;
+}
+
+.stickbottom{
+    bottom: 0;
+}
+
+.sticktop{
+    top: 0;
+}
+
+.card-bottom-minicontent{
+    position: absolute;
+    bottom: -30px;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.full-height{
+    height: 100%;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.youtube_background_player{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.halign.valign{
+    top: 50%!important;
+    left: 50%!important;
+    -webkit-transform: translate(-50%, -50%)!important;
+    transform: translate(-50%, -50%)!important;
+}
+
+.valign{
+    top: 50%!important;
+    -webkit-transform: translate(0, -50%)!important;
+    transform: translate(0, -50%)!important;
+}
+
+.loadingbar{
+    margin-bottom: 6%;
+}
+
+.hide{
+    display: none;
+}
+
+div#mp3_player{
+    width:100%;
+    background:transparent;
+    position: absolute;
+    bottom: 0;
+    height:6%;
+}
+div#mp3_player > div > audio{
+    opacity: 0;
+}
+div#mp3_player > canvas{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    height:200%;
+    background:rgba(0,0,0,0);
+}
+
+.preview_label{
+    position: absolute;
+    top: 25px;
+    left: -70px;
+    transform: rotate(-45deg);
+    padding-left: 65px;
+    padding-right: 65px;
+    opacity: .5;
+    z-index: 3000;
+}
+
+#background img.stretch{
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.card .card-content{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.installation_button{
+    margin-top: 10px;
+    z-index: 3000;
+}
+
+@media screen and (max-height: 768px){
+    .hard-bot{
+        margin-bottom: 0!important;
+        bottom: 0;
+        z-index: 300;
+        max-width: 70%;
+    }
+}
